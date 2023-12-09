@@ -3,7 +3,7 @@ import Navigation from "./pages/Auth/Navigation";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const App = () => {
+function App() {
   return (
     <>
       <ToastContainer />
@@ -13,6 +13,6 @@ const App = () => {
       </main>
     </>
   );
-};
+}
 
 export default App;
